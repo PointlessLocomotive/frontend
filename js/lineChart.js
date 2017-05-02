@@ -4,7 +4,7 @@ var PRD = [];
 var Morena = [];
 
 $.ajax({
-	url: "http://localhost:3000/lineChart",
+	url: "http://10.40.60.191:3030/lineChart",
 	dataType: "json",
 	type : "GET",
 	success : function(students) {
@@ -67,6 +67,3 @@ $.ajax({
 });
 	}
 });
-
-
-

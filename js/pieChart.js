@@ -4,7 +4,7 @@ var PRD;
 var Morena;
 
 $.ajax({
-  url: "http://localhost:3000/tweet",
+  url: "http://10.40.60.191:3030/tweet",
   dataType: "json",
   type : "GET",
   success : function(students) {
